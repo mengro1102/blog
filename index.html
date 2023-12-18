@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내 개인 블로그</title>
+    <title>IT 블로그</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>내 블로그</h1>
+        <h1>IT 블로그</h1>
         <nav>
             <ul>
-                <li><a href="#">홈</a></li>
-                <li><a href="#">블로그</a></li>
-                <li><a href="#">소개</a></li>
-                <li><a href="#">연락처</a></li>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#categories">카테고리</a></li>
+                <li><a href="#contact">연락처</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="post">
-            <h2>블로그 포스트 제목</h2>
-            <p>블로그 내용이 여기에 들어갑니다. 여러분의 이야기를 써보세요!</p>
-        </section>
-        <!-- 여러 개의 포스트를 추가할 수 있습니다 -->
+    <main id="home">
+        <h2>홈</h2>
+        <p>IT 블로그에 오신 것을 환영합니다!</p>
+        <!-- 여기에 홈 페이지 내용 추가 -->
     </main>
 
+    <section id="categories">
+        <h2>카테고리</h2>
+        <ul>
+            <li>프로그래밍</li>
+            <li>웹 개발</li>
+            <li>데이터 사이언스</li>
+        </ul>
+        <!-- 여기에 카테고리별 내용 추가 -->
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>문의사항이 있으시면 연락주세요.</p>
+        <!-- 여기에 연락처 정보 추가 -->
+    </section>
+
     <footer>
-        <p>&copy; 2023 내 블로그. 모든 권리 보유.</p>
+        <p>&copy; 2023 IT 블로그. 모든 권리 보유.</p>
     </footer>
 </body>
 </html>

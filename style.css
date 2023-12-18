@@ -15,10 +15,6 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -34,8 +30,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
+main, section {
     padding: 1rem;
+    border-bottom: 1px solid #ccc;
 }
 
 footer {
@@ -47,10 +44,6 @@ footer {
 
 /* 반응형 스타일 */
 @media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-    }
-
     nav ul li {
         display: block;
         margin-bottom: 10px;
